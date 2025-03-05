@@ -14,5 +14,11 @@ namespace ShopStuffs
         {
             popCornText.text = pocket.GetPopCorn().ToString();
         }
+
+        private void Update()
+        {
+            //TODO Only for test
+            popCornText.text = pocket.GetPopCorn().ToString();
+        }
     }
 }

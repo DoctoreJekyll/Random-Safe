@@ -27,6 +27,12 @@ namespace ShopStuffs
         {
             return popCornInPocket;
         }
-        
+
+        private void Update()
+        {
+            //TODO Disable this
+            if (Input.GetKeyDown(KeyCode.H))
+                popCornInPocket += 100;
+        }
     }
 }
