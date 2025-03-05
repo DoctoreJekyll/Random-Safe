@@ -34,14 +34,14 @@ public class PopCorn : MonoBehaviour
         {
             int temp = Random.Range(0, clip.Length);
 
-            ScoreManager.ScoreManagerInstance.AddPopCorn(points);
+            ScoreManager.scoreManagerInstance.AddPopCorn(points);
             MusicManager.musicManagerInstance.PlayFxSound(clip[temp]);
             BocadilloPool.bocadilloPoolInstance.GenerateBocadillo(transform);
             gameObject.SetActive(false);
         }
         else if (collision.gameObject.layer == 8 && isDestruible)
         {
-            ScoreManager.ScoreManagerInstance.AddPopCorn(points);
+            ScoreManager.scoreManagerInstance.AddPopCorn(points);
             MusicManager.musicManagerInstance.PlayFxSound(clip[0]);
             BocadilloPool.bocadilloPoolInstance.GenerateBocadillo(transform);
             Destroy(gameObject);

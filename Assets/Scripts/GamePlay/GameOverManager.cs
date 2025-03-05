@@ -76,7 +76,7 @@ public class GameOverManager : MonoBehaviour
             }
 
             PopCornSpawner.popCornSpawnerInstance.canCreate = false;
-            ScoreManager.ScoreManagerInstance.timeStart = false;
+            ScoreManager.scoreManagerInstance.timeStart = false;
             EnemiesSpawner.enemiesSpawnerInstance.canCreate = false;
             gameOverPanel.SetActive(true);
         }
@@ -101,7 +101,7 @@ public class GameOverManager : MonoBehaviour
         FloorSpawner.floorSpawnerInstance.isGameOver = true;
 
         PopCornSpawner.popCornSpawnerInstance.canCreate = false;
-        ScoreManager.ScoreManagerInstance.timeStart = false;
+        ScoreManager.scoreManagerInstance.timeStart = false;
         EnemiesSpawner.enemiesSpawnerInstance.canCreate = false;
         
         playerShootComponent = GameObject.FindWithTag("Player").GetComponent<Shoot>();
@@ -115,7 +115,7 @@ public class GameOverManager : MonoBehaviour
 
         StopMovements();
 
-        if (!ScoreManager.ScoreManagerInstance.needBoss)
+        if (!ScoreManager.scoreManagerInstance.needBoss)
         {
             popCorns = FindObjectsOfType<PopCorn>();
             for (int i = 0; i < popCorns.Length; i++)

@@ -7,7 +7,7 @@ namespace Scenary
 {
     public class ScoreManager : MonoBehaviour
     {
-        public static ScoreManager ScoreManagerInstance;
+        public static ScoreManager scoreManagerInstance;
     
         public bool timeStart;
         public float counter;
@@ -29,7 +29,7 @@ namespace Scenary
 
         private void Awake()
         {
-            ScoreManagerInstance = this;
+            scoreManagerInstance = this;
         }
 
         // Start is called before the first frame update
@@ -73,6 +73,13 @@ namespace Scenary
         {
             popCorn += n;
             popCornText.text = popCorn.ToString();
+            SavePopCorn();
+        }
+
+        private void SavePopCorn()
+        {
+            PlayerPrefs.SetInt("popCorn", popCorn);
+            PlayerPrefs.Save();
         }
 
         private void TimeIsZero()
