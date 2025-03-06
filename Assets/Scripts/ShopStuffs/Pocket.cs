@@ -28,6 +28,11 @@ namespace ShopStuffs
             return popCornInPocket;
         }
 
+        public void UsePopCorn(int value)
+        {
+            popCornInPocket -= value;
+        }
+
         private void Update()
         {
             //TODO Disable this
