@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace ShopStuffs
@@ -8,6 +9,7 @@ namespace ShopStuffs
     {
 
         [SerializeField] private string pjKey;
+        [FormerlySerializedAs("selector")] [SerializeField] private int selectorID;
 
         [Header("Components")]
         [SerializeField] private Button button;
@@ -31,5 +33,8 @@ namespace ShopStuffs
             button.enabled = true;
             image.enabled = true;
         }
+        
+        public int SelectorID => selectorID;
+        
     }
 }

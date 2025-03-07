@@ -36,8 +36,14 @@ namespace ShopStuffs
         private void Update()
         {
             //TODO Disable this
-            if (Input.GetKeyDown(KeyCode.H))
+            if (Input.GetKeyDown(KeyCode.Q))
                 popCornInPocket += 1000;
+
+            if (Input.GetKeyDown(KeyCode.M))
+            {
+                PlayerPrefs.DeleteAll();
+                Debug.LogWarning("Pocket has been deleted.");
+            }
         }
     }
 }

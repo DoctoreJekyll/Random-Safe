@@ -4,16 +4,12 @@ namespace ShopStuffs
 {
     public class PickPj : MonoBehaviour
     {
-        // Start is called before the first frame update
-        void Start()
-        {
-        
-        }
+        private readonly string playerSelectableKey = "PlayerIdActive";
+        [SerializeField] private PjSelectable selector;
 
-        // Update is called once per frame
-        void Update()
+        public void Pick()
         {
-        
+            PlayerPrefs.SetInt(playerSelectableKey, selector.SelectorID);
         }
     }
 }

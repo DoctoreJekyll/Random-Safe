@@ -14,6 +14,8 @@ namespace PlayerManagers
         {
             playerIdActive = PlayerPrefs.HasKey("PlayerIdActive") ? PlayerPrefs.GetInt("PlayerActiveId", 0) : 0;
             playerPrefabs[playerIdActive].SetActive(true);
+            
+            Debug.Log(playerIdActive);
         }
     }
 }

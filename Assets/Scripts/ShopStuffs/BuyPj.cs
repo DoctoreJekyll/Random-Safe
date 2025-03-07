@@ -12,9 +12,9 @@ namespace ShopStuffs
         [SerializeField] private string pjKey;
 
         private Image image;
-        private readonly float c1 = 41f;
-        private readonly float c2 = 41f;
-        private readonly float c3 = 41f;
+        private readonly byte c1 = 41;
+        private readonly byte c2 = 41;
+        private readonly byte c3 = 41;
 
         private void Start()
         {
@@ -23,7 +23,7 @@ namespace ShopStuffs
 
         public void BuyThisPj()
         {
-            if (pocket.GetPopCorn() > cost)
+            if (pocket.GetPopCorn() >= cost)
             {
                 EnablePj();
                 pocket.UsePopCorn(cost);
@@ -33,7 +33,7 @@ namespace ShopStuffs
         private void EnablePj()
         {
             PlayerPrefs.SetInt(pjKey,1);
-            image.color = new Color(c1, c2, c3);
+            image.color = new Color32(c1, c2, c3,255);
         }
     }
 }
