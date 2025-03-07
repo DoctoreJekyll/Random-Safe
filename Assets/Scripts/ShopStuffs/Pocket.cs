@@ -37,7 +37,7 @@ namespace ShopStuffs
         {
             //TODO Disable this
             if (Input.GetKeyDown(KeyCode.H))
-                popCornInPocket += 100;
+                popCornInPocket += 1000;
         }
     }
 }

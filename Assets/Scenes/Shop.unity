@@ -203,7 +203,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 19196049}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1630405541}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 619501055}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &19196049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -523,7 +547,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 332385223}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1713192748}
+        m_TargetAssemblyTypeName: ShopStuffs.BuyPj, Assembly-CSharp
+        m_MethodName: BuyThisPj
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &332385223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -605,7 +641,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 173.25084, y: -0.00010119844}
-  m_SizeDelta: {x: 0, y: 275.3675}
+  m_SizeDelta: {x: 1164.8265, y: 275.3675}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &336334052
 CanvasRenderer:
@@ -767,7 +803,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 336907926}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2045294146}
+        m_TargetAssemblyTypeName: ShopStuffs.BuyPj, Assembly-CSharp
+        m_MethodName: BuyThisPj
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &336907926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1165,7 +1213,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 486483658}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 203714216}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 619501055}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &486483658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1286,7 +1358,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 495193008}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 742996830}
+        m_TargetAssemblyTypeName: ShopStuffs.BuyPj, Assembly-CSharp
+        m_MethodName: BuyThisPj
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &495193008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1815,7 +1899,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &619501056
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2120,7 +2204,7 @@ GameObject:
   - component: {fileID: 742996828}
   - component: {fileID: 742996830}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Curt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2141,9 +2225,9 @@ RectTransform:
   - {fileID: 495193006}
   m_Father: {fileID: 336334051}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 22, y: -107.82255}
   m_SizeDelta: {x: 173.4711, y: 171.6451}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &742996828
@@ -2198,6 +2282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 1000
   pocket: {fileID: 1348306527}
+  pjKey: Curt
 --- !u!1 &792283379
 GameObject:
   m_ObjectHideFlags: 0
@@ -2744,7 +2829,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 958570122}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1016066450}
+        m_TargetAssemblyTypeName: ShopStuffs.BuyPj, Assembly-CSharp
+        m_MethodName: BuyThisPj
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &958570122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3081,7 +3178,7 @@ GameObject:
   - component: {fileID: 1016066448}
   - component: {fileID: 1016066450}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: Rich
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3102,9 +3199,9 @@ RectTransform:
   - {fileID: 958570120}
   m_Father: {fileID: 336334051}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 211.4711, y: -107.82255}
   m_SizeDelta: {x: 173.4711, y: 171.6451}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1016066448
@@ -3159,6 +3256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 1000
   pocket: {fileID: 1348306527}
+  pjKey: Rich
 --- !u!1 &1042903492
 GameObject:
   m_ObjectHideFlags: 0
@@ -3241,7 +3339,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1042903495}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1042903495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3390,9 +3500,9 @@ RectTransform:
   - {fileID: 1042903493}
   m_Father: {fileID: 336334051}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 969.35547, y: -107.82255}
   m_SizeDelta: {x: 173.4711, y: 171.6451}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1109805957
@@ -3447,6 +3557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 1000
   pocket: {fileID: 1348306527}
+  pjKey: 
 --- !u!1 &1126039397
 GameObject:
   m_ObjectHideFlags: 0
@@ -3669,6 +3780,7 @@ GameObject:
   - component: {fileID: 1218321335}
   - component: {fileID: 1218321334}
   - component: {fileID: 1218321333}
+  - component: {fileID: 1218321336}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -3738,7 +3850,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1218321334}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1218321336}
+        m_TargetAssemblyTypeName: Settings.LoadScene, Assembly-CSharp
+        m_MethodName: LoadSceneBy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1218321334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3777,6 +3901,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1218321331}
   m_CullTransparentMesh: 1
+--- !u!114 &1218321336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218321331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3289c48bdcc3a4da30982b57addeb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadType: 1
+  sceneIndex: 0
+  sceneName: MainMenu2
 --- !u!1 &1253286307
 GameObject:
   m_ObjectHideFlags: 0
@@ -4429,7 +4568,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1491843200}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1782158761}
+        m_TargetAssemblyTypeName: ShopStuffs.BuyPj, Assembly-CSharp
+        m_MethodName: BuyThisPj
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1491843200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4629,7 +4780,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1630405542
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5092,7 +5243,7 @@ GameObject:
   - component: {fileID: 1713192746}
   - component: {fileID: 1713192748}
   m_Layer: 5
-  m_Name: Image (4)
+  m_Name: Samu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5113,9 +5264,9 @@ RectTransform:
   - {fileID: 332385221}
   m_Father: {fileID: 336334051}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 779.8844, y: -107.82255}
   m_SizeDelta: {x: 173.4711, y: 171.6451}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1713192746
@@ -5170,6 +5321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 1000
   pocket: {fileID: 1348306527}
+  pjKey: Samu
 --- !u!1 &1730046083
 GameObject:
   m_ObjectHideFlags: 0
@@ -5258,7 +5410,7 @@ GameObject:
   - component: {fileID: 1782158759}
   - component: {fileID: 1782158761}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: Rotor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5279,9 +5431,9 @@ RectTransform:
   - {fileID: 1491843198}
   m_Father: {fileID: 336334051}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 400.9422, y: -107.82255}
   m_SizeDelta: {x: 173.4711, y: 171.6451}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1782158759
@@ -5336,6 +5488,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 1000
   pocket: {fileID: 1348306527}
+  pjKey: Rot
 --- !u!1 &1788755796
 GameObject:
   m_ObjectHideFlags: 0
@@ -6037,7 +6190,7 @@ GameObject:
   - component: {fileID: 2045294144}
   - component: {fileID: 2045294146}
   m_Layer: 5
-  m_Name: Image (3)
+  m_Name: Insano
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6058,9 +6211,9 @@ RectTransform:
   - {fileID: 336907924}
   m_Father: {fileID: 336334051}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 590.4133, y: -107.82255}
   m_SizeDelta: {x: 173.4711, y: 171.6451}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &2045294144
@@ -6115,6 +6268,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 1000
   pocket: {fileID: 1348306527}
+  pjKey: Insa
 --- !u!1 &2079470286
 GameObject:
   m_ObjectHideFlags: 0
