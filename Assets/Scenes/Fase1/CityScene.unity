@@ -2090,11 +2090,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6058605174908198113, guid: 7966478d03e547a48a9ee967f8117365, type: 3}
   m_PrefabInstance: {fileID: 376859931}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &394501883 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5745777153081145119, guid: 36e0f5131549d6a47b058442ccdcd2d5, type: 3}
-  m_PrefabInstance: {fileID: 8988450391742617010}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &394501885 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7439657338214073918, guid: 36e0f5131549d6a47b058442ccdcd2d5, type: 3}
@@ -4165,7 +4160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae980e0b5a63b2340bfd0576381f4ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 394501883}
+  playerAnimator: {fileID: 0}
   gamePlayStart: 0
   parallaxs:
   - {fileID: 951974236}
@@ -11573,6 +11568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Insano
       objectReference: {fileID: 0}
+    - target: {fileID: 7651358761660766273, guid: 37209c725d31a2546a95336bedf3ab19, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11790,7 +11789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3644649235690037150, guid: 36e0f5131549d6a47b058442ccdcd2d5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7439657338214073918, guid: 36e0f5131549d6a47b058442ccdcd2d5, type: 3}
       propertyPath: m_LocalPosition.x

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -6,6 +7,7 @@ using GamePlay.Boss;
 using Scenary;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
+using Random = UnityEngine.Random;
 
 public class GameOverManager : MonoBehaviour
 {
@@ -30,6 +32,11 @@ public class GameOverManager : MonoBehaviour
     {
         gameOverManagerInstance = this;
         isWinning = false;
+    }
+
+    private void Start()
+    {
+        playerShootComponent = GameObject.FindWithTag("Player").GetComponent<Shoot>();
     }
 
     private bool repairSoundBoolean;

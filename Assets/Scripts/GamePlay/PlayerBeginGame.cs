@@ -30,6 +30,7 @@ public class PlayerBeginGame : MonoBehaviour
     private void Start()
     {
         initialFloorInScene = FindObjectsOfType<PlatformMovement>();
+        playerAnimator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
     }
 
     public void BeginGame()
