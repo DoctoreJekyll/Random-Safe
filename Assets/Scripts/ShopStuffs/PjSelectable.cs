@@ -36,5 +36,7 @@ namespace ShopStuffs
         
         public int SelectorID => selectorID;
         
+        
+        
     }
 }

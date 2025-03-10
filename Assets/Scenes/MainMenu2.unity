@@ -227,13 +227,13 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1648320592}
+  - {fileID: 572731211}
   - {fileID: 1679948950}
   - {fileID: 579567959}
-  - {fileID: 500654176}
   - {fileID: 641028781}
   - {fileID: 1728331032}
   - {fileID: 1265537459}
-  - {fileID: 572731211}
+  - {fileID: 500654176}
   - {fileID: 407774005}
   - {fileID: 574834855}
   - {fileID: 768896979}
@@ -438,7 +438,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29, y: -120}
+  m_AnchoredPosition: {x: 116.99999, y: -120}
   m_SizeDelta: {x: 97.326, y: 150.315}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &230110636
@@ -547,6 +547,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 407774009}
+        m_TargetAssemblyTypeName: ShopStuffs.SelectCharacterButton, Assembly-CSharp
+        m_MethodName: Select
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 230110639}
+          m_ObjectArgumentAssemblyTypeName: ShopStuffs.PjSelectable, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &230110639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -599,7 +611,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -217, y: -120}
+  m_AnchoredPosition: {x: -129.00002, y: -120}
   m_SizeDelta: {x: 97.326, y: 150.315}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &392679754
@@ -703,6 +715,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 407774009}
+        m_TargetAssemblyTypeName: ShopStuffs.SelectCharacterButton, Assembly-CSharp
+        m_MethodName: Select
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 392679758}
+          m_ObjectArgumentAssemblyTypeName: ShopStuffs.PjSelectable, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -933,7 +957,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 407774009}
-        m_TargetAssemblyTypeName: ShopStuffs.PickPj, Assembly-CSharp
+        m_TargetAssemblyTypeName: ShopStuffs.SelectCharacterButton, Assembly-CSharp
         m_MethodName: Pick
         m_Mode: 1
         m_Arguments:
@@ -953,10 +977,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 407774004}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 493933efa9a2b2d479cfcb7a0d3179e8, type: 3}
+  m_Script: {fileID: 11500000, guid: ef376a7eab447d94597b668f72fe7ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selector: {fileID: 0}
+  pjSelected: {fileID: 0}
 --- !u!1 &472633540
 GameObject:
   m_ObjectHideFlags: 0
@@ -1110,7 +1134,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.0000067, y: -5.9999995}
+  m_AnchoredPosition: {x: 6, y: -6}
   m_SizeDelta: {x: 295.187, y: 225.6208}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &500654177
@@ -1199,7 +1223,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.0000067, y: -5.9999995}
+  m_AnchoredPosition: {x: 6, y: -6}
   m_SizeDelta: {x: 295.187, y: 225.6208}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &572731212
@@ -1252,7 +1276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 493933efa9a2b2d479cfcb7a0d3179e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selector: {fileID: 0}
+  selector: {fileID: 652241675}
 --- !u!1 &574834854
 GameObject:
   m_ObjectHideFlags: 0
@@ -1453,7 +1477,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -137, y: -120}
+  m_AnchoredPosition: {x: -49.000008, y: -120}
   m_SizeDelta: {x: 97.326, y: 150.315}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &592034544
@@ -1557,6 +1581,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 407774009}
+        m_TargetAssemblyTypeName: ShopStuffs.SelectCharacterButton, Assembly-CSharp
+        m_MethodName: Select
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 592034547}
+          m_ObjectArgumentAssemblyTypeName: ShopStuffs.PjSelectable, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1667,6 +1703,179 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selector: {fileID: 1549992716}
+--- !u!1 &652241673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 652241674}
+  - component: {fileID: 652241678}
+  - component: {fileID: 652241677}
+  - component: {fileID: 652241676}
+  - component: {fileID: 652241675}
+  m_Layer: 5
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &652241674
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652241673}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 926869330}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -207, y: -120}
+  m_SizeDelta: {x: 97.326, y: 150.315}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &652241675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652241673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 165e2c92e3c151e46a0059949a1d3828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pjKey: Player
+  selectorID: 0
+  button: {fileID: 0}
+  image: {fileID: 0}
+--- !u!114 &652241676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652241673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 652241677}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 131101044}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 572731210}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 407774009}
+        m_TargetAssemblyTypeName: ShopStuffs.SelectCharacterButton, Assembly-CSharp
+        m_MethodName: Select
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 652241675}
+          m_ObjectArgumentAssemblyTypeName: ShopStuffs.PjSelectable, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &652241677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652241673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: d2730cc5581ed7448aa0f79d5ea33d25, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &652241678
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652241673}
+  m_CullTransparentMesh: 1
 --- !u!1 &733931472
 GameObject:
   m_ObjectHideFlags: 0
@@ -1926,6 +2135,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 926869333}
+        m_TargetAssemblyTypeName: ShopStuffs.CloseAllImagesAtached, Assembly-CSharp
+        m_MethodName: CloseAllImages
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2343,6 +2564,7 @@ GameObject:
   - component: {fileID: 926869330}
   - component: {fileID: 926869332}
   - component: {fileID: 926869331}
+  - component: {fileID: 926869333}
   m_Layer: 5
   m_Name: SelecImage
   m_TagString: Untagged
@@ -2362,6 +2584,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 652241674}
   - {fileID: 392679753}
   - {fileID: 592034543}
   - {fileID: 1549992712}
@@ -2414,6 +2637,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 926869329}
   m_CullTransparentMesh: 1
+--- !u!114 &926869333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926869329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9c63774166dfc34ab7a43bd263fbaef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToClose:
+  - {fileID: 1679948949}
+  - {fileID: 579567958}
+  - {fileID: 500654175}
+  - {fileID: 641028780}
+  - {fileID: 1728331031}
+  - {fileID: 1265537458}
+  - {fileID: 572731210}
 --- !u!1 &1091201517
 GameObject:
   m_ObjectHideFlags: 0
@@ -3387,7 +3630,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -58, y: -120}
+  m_AnchoredPosition: {x: 29.999992, y: -120}
   m_SizeDelta: {x: 97.326, y: 150.315}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1549992713
@@ -3491,6 +3734,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 407774009}
+        m_TargetAssemblyTypeName: ShopStuffs.SelectCharacterButton, Assembly-CSharp
+        m_MethodName: Select
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1549992716}
+          m_ObjectArgumentAssemblyTypeName: ShopStuffs.PjSelectable, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4140,7 +4395,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 112, y: -120}
+  m_AnchoredPosition: {x: 199.99998, y: -120}
   m_SizeDelta: {x: 97.326, y: 150.315}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1929645933
@@ -4244,6 +4499,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 407774009}
+        m_TargetAssemblyTypeName: ShopStuffs.SelectCharacterButton, Assembly-CSharp
+        m_MethodName: Select
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1929645936}
+          m_ObjectArgumentAssemblyTypeName: ShopStuffs.PjSelectable, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4471,6 +4738,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 926869333}
+        m_TargetAssemblyTypeName: ShopStuffs.CloseAllImagesAtached, Assembly-CSharp
+        m_MethodName: CloseAllImages
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

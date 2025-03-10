@@ -12,7 +12,7 @@ namespace PlayerManagers
 
         private void Start()
         {
-            playerIdActive = PlayerPrefs.HasKey("PlayerIdActive") ? PlayerPrefs.GetInt("PlayerActiveId", 0) : 0;
+            playerIdActive = PlayerPrefs.HasKey("PlayerIdActive") ? PlayerPrefs.GetInt("PlayerIdActive", 0) : 0;
             playerPrefabs[playerIdActive].SetActive(true);
             
             Debug.Log(playerIdActive);
