@@ -1,26 +1,35 @@
 using System;
+using System.Collections;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 namespace GamePlay.Player
 {
     public class ActionButton : MonoBehaviour
     {
         private Button button;
-        private PlayerInputController playerInputController;
+        [SerializeField] private PlayerInputController playerInputController;
+
+        private bool isNotSet = false;
 
         private void Awake()
         {
             button = GetComponent<Button>();
         }
 
-        private void Start()
+        public void SetButtonBehaviour()
         {
-            playerInputController = GameObject.FindWithTag("Player").GetComponent<PlayerInputController>();
-
-            if (button != null && playerInputController != null)
+            if (isNotSet == false)
             {
-                button.clicked += () => playerInputController.JumpForce();
+                playerInputController = GameObject.FindWithTag("Player").GetComponent<PlayerInputController>();
+
+                if (button != null && playerInputController != null)
+                {
+                    button.onClick.AddListener(playerInputController.JumpForce);
+                    Debug.Log("Listener add on buttton");
+                }
+                
+                isNotSet = true;
             }
         }
     }

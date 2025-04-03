@@ -2283,6 +2283,7 @@ MonoBehaviour:
   cost: 1000
   pocket: {fileID: 1348306527}
   pjKey: Curt
+  buyButton: {fileID: 495193007}
 --- !u!1 &792283379
 GameObject:
   m_ObjectHideFlags: 0
@@ -3257,6 +3258,7 @@ MonoBehaviour:
   cost: 1000
   pocket: {fileID: 1348306527}
   pjKey: Rich
+  buyButton: {fileID: 958570121}
 --- !u!1 &1042903492
 GameObject:
   m_ObjectHideFlags: 0
@@ -3558,6 +3560,7 @@ MonoBehaviour:
   cost: 1000
   pocket: {fileID: 1348306527}
   pjKey: 
+  buyButton: {fileID: 1042903494}
 --- !u!1 &1126039397
 GameObject:
   m_ObjectHideFlags: 0
@@ -5322,6 +5325,7 @@ MonoBehaviour:
   cost: 1000
   pocket: {fileID: 1348306527}
   pjKey: Samu
+  buyButton: {fileID: 332385222}
 --- !u!1 &1730046083
 GameObject:
   m_ObjectHideFlags: 0
@@ -5489,6 +5493,7 @@ MonoBehaviour:
   cost: 1000
   pocket: {fileID: 1348306527}
   pjKey: Rot
+  buyButton: {fileID: 1491843199}
 --- !u!1 &1788755796
 GameObject:
   m_ObjectHideFlags: 0
@@ -6269,6 +6274,7 @@ MonoBehaviour:
   cost: 1000
   pocket: {fileID: 1348306527}
   pjKey: Insa
+  buyButton: {fileID: 336907925}
 --- !u!1 &2079470286
 GameObject:
   m_ObjectHideFlags: 0

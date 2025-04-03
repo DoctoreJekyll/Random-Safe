@@ -778,6 +778,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1834991655}
     m_Modifications:
+    - target: {fileID: 1193029871601583376, guid: 6193b3b4c6d6b6f46b4ba453b75f3327, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 783023210}
+    - target: {fileID: 1193029871601583376, guid: 6193b3b4c6d6b6f46b4ba453b75f3327, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BeginGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 1193029871601583376, guid: 6193b3b4c6d6b6f46b4ba453b75f3327, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GamePlay.PlayerBeginGame, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2605252378821533306, guid: 6193b3b4c6d6b6f46b4ba453b75f3327, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

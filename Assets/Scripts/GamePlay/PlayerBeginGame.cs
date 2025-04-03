@@ -1,3 +1,4 @@
+using System.Collections;
 using Scenary;
 using UnityEngine;
 
@@ -26,9 +27,10 @@ namespace GamePlay
             playerBeginGameInstance = this;
         }
 
-        private void Start()
+        private IEnumerator Start()
         {
             initialFloorInScene = FindObjectsOfType<PlatformMovement>();
+            yield return new WaitForEndOfFrame();
             playerAnimator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
         }
 

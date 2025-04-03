@@ -1,5 +1,6 @@
 using System.Collections;
 using GamePlay.Boss;
+using GamePlay.Enemies;
 using Scenary;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
